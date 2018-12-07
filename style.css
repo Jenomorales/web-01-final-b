@@ -1,0 +1,378 @@
+* {
+    font-family: sans-serif;
+    }
+    
+    .top {
+    width: 100%;
+    height: 42vh;
+    background-image: url(https://sc.edu/about/offices_and_divisions/cte/teaching_resources/images/female_professor_on_desk.jpg);
+    background-color: rgb(138, 138, 138);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;}
+    
+    .nav {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .ewuvcd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 5.5%;
+    height: 45px;
+    margin-left: 1.5%;
+    background-color: gold;
+    margin-top: 1.5%;
+    }
+    
+    .ewuvcd h1 {
+    font-size: 16px;
+    margin-left: 5px;}
+    
+    .navitems {
+    display: flex;
+    width: 73%;
+    justify-content: space-between;
+    margin-top: 1.5%;
+    margin-right: 1.5%;}
+    
+    .navitems h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d1a26;
+    font-size: 12px;
+    color: white;
+    width: 17%;
+    height: 25px;
+    margin-top: 0px;
+    }
+    
+    #selected {
+    background-color: gold;
+    }
+    .mg {
+    width: 18px;
+    height: 18px;
+    padding: .5%;
+    margin-top: 0px;
+    background-color: black;
+    }
+    
+    .header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 27vh;
+    }
+    
+    .header h1 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 8vh;
+    }
+    .header p {
+    height: 10vh;
+    text-align: center;
+    line-height: 30px;
+    width: 65%;
+    font-size: 15px;
+    color: white;
+    margin-top: -3%;
+    opacity: 0.7;
+    padding-bottom: 3.5%;
+    }
+    
+    /* Top Gallery */
+    
+    .gallerytop {
+    height: 43vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:repeat(3, 1fr);
+    }
+    
+    .facultytitle {
+    width 100%;
+    background-color: #0d1a26;
+    grid-column-start:1;
+    grid-column-end:1;
+    grid-row-start:1;
+    grid-row-end:3;
+    margin: 2%;
+    }
+    
+    .facultytitle h1 {
+    width: 60%;
+    color: grey;
+    font-size: 30px;
+    margin: 110px 20px 60px 50px;
+    }
+    
+    .facultyimg1 {
+    background-image: url("https://poetsandquants.com/wp-content/uploads/2012/02/Yiorgos.jpg");
+    width: 96%;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2%;
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end:2;
+    }
+    .facultyimg1 h1 {
+    display: flex;
+    font-size: 10px;
+    background-color: lightgrey;
+    width: 36%;
+    height: 9%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    
+    
+    }
+    .facultyimg2 {
+    background-image: url("https://clas.uiowa.edu/sites/default/themes/clas/images/home_image_lange.jpg");
+    width: 96%;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2%;
+    grid-column-start:3;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end:1;
+    }
+    .facultyimg2 h1 {
+    display: flex;
+    color: lightgrey;
+    font-size: 10px;
+    background-color: #0d1a26;
+    width: 39%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    }
+    .facultyimg3 {
+    background-image: url("https://cpb-us-w2.wpmucdn.com/blogs.cofc.edu/dist/9/86/files/2015/11/instructor.leading.discussion-o2z3o1.jpg");
+    width: 96%;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2%;
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:2;
+    grid-row-end:3;
+    }
+    .facultyimg3 h1 {
+    display: flex;
+    color: black;
+    font-size: 10px;
+    background-color: gold;
+    width: 39%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 61%;}
+    .facultyimg4 {
+    background-image: url("https://www.everettcc.edu/files/programs/ccec/college-in-hs/chs-teacher-info.jpg");
+    width: 96%;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2%;
+    grid-column-start:3;
+    grid-column-end:3;
+    grid-row-start:2;
+    grid-row-end:3;
+    }
+    .facultyimg4 h1 {
+    display: flex;
+    color: gold;
+    font-size: 10px;
+    background-color: #0d1a26;
+    width: 39%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 61%;}
+    
+    /* Gallery */
+    .gallery {
+    height: 100vh;
+    width: 100%;
+    margin-top: 1.5%;
+    }
+    
+    /* Bottom Gallery */
+    
+    .gallerybottom {
+    height: 45vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:repeat(3, 1fr);
+    margin-top: 1%;}
+    
+    .facultytitle2 {
+    width: 100%;
+    background-color: gold;
+    grid-column-start:3;
+    grid-column-end:4;
+    grid-row-start:1;
+    grid-row-end:3;
+    margin: 2%;
+    }
+    
+    .facultytitle2 h1 {
+    width: 70%;
+    color: black;
+    font-size: 30px;
+    margin: 110px 20px 60px 50px;
+    }
+    
+    .facultyimg5 {
+    background-image: url("https://www.highlands.edu/wp-content/uploads/2016/02/English-teacher.jpg");
+    width: 96%;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2%;
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:1;
+    grid-row-end:2;
+    }
+    .facultyimg5 h1 {
+    display: flex;
+    color: lightgrey;
+    font-size: 10px;
+    background-color: #0d1a26;
+    width: 39%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    
+    
+    }
+    .facultyimg6 {
+    background-image: url("https://img-aws.ehowcdn.com/600x600p/photos.demandstudios.com/getty/article/251/198/86806725.jpg");
+    width: 96%;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2%;
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end:1;
+    }
+    .facultyimg6 h1 {
+    display: flex;
+    color: gold;
+    font-size: 10px;
+    background-color: #0d1a26;
+    width: 39%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    }
+    .facultyimg7 {
+    background-image: url("https://www.sierranevada.edu/wp-content/uploads/TED-teacher-blackboard-TESL-200408288-001_47-420.jpg");
+    width: 96%;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2%;
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:2;
+    grid-row-end:3;
+    }
+    .facultyimg7 h1 {
+    display: flex;
+    color: black;
+    font-size: 10px;
+    background-color: gold;
+    width: 39%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 61%;}
+    
+    .facultyimg8 {
+    background-image: url("https://timesofsandiego.com/wp-content/uploads/2016/08/College-Teacher.jpg");
+    width: 96%;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2%;
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:2;
+    grid-row-end:3;
+    }
+    .facultyimg8 h1 {
+    display: flex;
+    color: black;
+    font-size: 10px;
+    background-color: lightgrey;
+    width: 39%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 61%;}
+    
+    /*Footer*/
+    
+    .footer {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    background-color: #0d1a26;
+    justify-content: space-between;
+    margin-top: -80px;
+
+    }
+    
+    .column1 {
+    color: lightgrey;
+    text-align: center;
+    font-size: 12px;
+    line-height: 45px;
+    margin-left: 7%;
+    margin-top: 5px;
+    }
+    
+    .column2 {
+    color: lightgrey;
+    text-align: center;
+    font-size: 12px;
+    line-height: 45px;
+    margin-top: 5px;
+    }
+    .column3 {
+    color: lightgrey;
+    text-align: center;
+    font-size: 12px;
+    line-height: 45px;
+    margin-right: 7%;
+    margin-top: 5px;
+    }
+    
