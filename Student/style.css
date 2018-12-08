@@ -402,4 +402,87 @@
     margin-right: 7%;
     margin-top: 5px;
     }
+    @media screen and (max-width: 500px) {
+
+        .ewuvcd {
+        width: 50px;
+        }
+        .navitems{
+        width: 80%;
+        }
+        .navitems h3{
+        font-size: 10px;
+        }
+        .mg {
+        height: 21px; 
+         }
+        .header p {
+        font-size: 12px;
+        margin-top: -10%;
+        line-height: 22px;}
+                  .facultyimg1 {
+        background-size: 250% 100%;
+        background-position: center;
+         }
+                    .facultyimg2 {
+         background-size: 300% 100%;
+        background-position: center;
+        }
+                   .facultyimg3 {
+         background-size: 250% 100%;
+        background-position: center;
+        }
+                   .facultyimg4 {
+        background-size: 300% 100%;
+        background-position: 30% 50%;
+        } 
+        .footer {
+        height: 18.8vh;
+        }
+        .column1{
+        font-size: 9px;
+        line-height: 40px;
+        }
+        .column2{
+        font-size: 9px;
+        line-height: 40px;
+        }
+        .column3{
+        font-size: 9px;
+        line-height: 40px;
+        }
+        .laurenbio p {
+        font-size: 10px;
+        line-height: 12px;}
+        .laurenbio h1 {
+        margin-top: 0px;}
+        .chadbio p {
+        font-size: 10px;
+        line-height: 12px;}
+        .chadbio h1 {
+        margin-top: 0px;}
+        .sarahbio p {
+        font-size: 10px;
+        line-height: 12px;}
+        .sarahbio h1 {
+        margin-top: 0px;}
+        .loganbio p {
+        font-size: 10px;
+        line-height: 12px;}
+        .loganbio h1 {
+        margin-top: 0px;}
+        
+        .facultyimg1 h1 {
+        width: 100%;
+        margin-left:0%;}
+        .facultyimg2 h1 {
+        width: 100%;
+        margin-left: 0%;}
+        .facultyimg3 h1 {
+        width: 100%;
+        margin-left: 0%;}
+        .facultyimg4 h1 {
+        width: 100%;
+        margin-left: 0%;}
+        }
     
