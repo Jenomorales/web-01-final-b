@@ -1,5 +1,10 @@
+@font-face {
+font-family: 'avenir-next-regular.woff';
+src: url(fonts/avenir-next-regular.woff) format('woff');
+}
+
 * {
-    font-family: sans-serif;
+    font-family: 'avenir-next-regular.woff';
     }
     
     .top {
